@@ -1,10 +1,39 @@
+/* Style global de la page */
 body {
-  background-color: #f0f0f0;
-  font-family: Arial;
+  background-color: #f0f8ff; /* couleur de fond douce */
+  font-family: Arial, sans-serif;
   text-align: center;
   padding-top: 50px;
 }
 
+/* Titre principal */
 h1 {
-  color: blue;
+  color: #1e90ff; /* bleu vif */
+  font-size: 48px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+/* Un petit sous-titre */
+p {
+  color: #333333;
+  font-size: 20px;
+  margin-top: 0;
+}
+
+/* Boutons stylés */
+button {
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #104e8b;
+  transform: scale(1.05);
 }
