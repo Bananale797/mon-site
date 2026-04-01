@@ -1,3 +1,4 @@
+// Fonction qui s’exécute quand tu cliques sur le bouton
 function alerte() {
-  alert("Bravo ! Tu as cliqué sur le bouton 😎");
+  alert("Tu as cliqué ! 😃"); // Message qui apparaît
 }

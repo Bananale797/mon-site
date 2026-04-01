@@ -1,43 +1,47 @@
+/* Style de base sur tout le site */
 body {
-  background-color: #f0f8ff;
-  font-family: Arial, sans-serif;
-  text-align: center;
-  padding-top: 50px;
+  background-color: #f0f8ff; /* Couleur de fond bleu clair */
+  font-family: Arial, sans-serif; /* Police lisible */
+  text-align: center; /* Centrer tout le contenu */
+  padding-top: 40px; /* Espace en haut */
 }
 
+/* Style pour le titre principal */
 h1 {
-  color: #1e90ff;
-  font-size: 48px;
-  margin-bottom: 20px;
-  text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  color: #1e90ff; /* Bleu vif */
+  font-size: 50px;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.3); /* Ombre sous le texte */
 }
 
+/* Style pour le paragraphe */
 p {
   color: #333;
-  font-size: 20px;
-  margin-top: 0;
+  font-size: 22px;
 }
 
+/* Style pour l’image */
 .image {
-  width: 300px;
-  border-radius: 15px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-  margin-top: 20px;
+  width: 80%; /* L’image occupe 80% de la largeur de l’écran */
+  max-width: 720px; /* Taille maxi pour grands écrans */
+  border-radius: 15px; /* Coins arrondis */
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3); /* Ombre portée */
+  margin-top: 20px; /* Espace au dessus de l’image */
 }
 
+/* Style du bouton */
 button {
-  background-color: #1e90ff;
-  color: white;
+  margin-top: 25px;
+  background-color: #1e90ff; /* Couleur du bouton */
+  color: #fff; /* Texte blanc */
   border: none;
-  padding: 10px 25px;
-  font-size: 18px;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: 0.3s ease;
-  margin-top: 20px;
+  padding: 12px 28px;
+  font-size: 19px;
+  border-radius: 8px; /* Coins arrondis */
+  cursor: pointer; /* Curseur main */
+  transition: 0.3s ease; /* Animation du bouton */
 }
 
 button:hover {
-  background-color: #104e8b;
-  transform: scale(1.05);
+  background-color: #104e8b; /* Couleur lorsque la souris est dessus */
+  transform: scale(1.05); /* Agrandissement léger */
 }
