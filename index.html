@@ -1,37 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- Informations de base du site -->
     <meta charset="UTF-8">
-    <title>Mon premier site avec image</title>
+    <title>Site avec image locale</title>
 
-    <!-- On relie le fichier CSS pour le style de la page -->
+    <!-- On relie le fichier CSS -->
     <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
-    <!-- Titre principal -->
-    <h1>Bonjour, ceci est mon site avec une belle image !</h1>
+    <h1>Mon image locale s'affiche !</h1>
+    <p>Voici l’image téléchargée :</p>
 
-    <!-- Petit texte d’introduction -->
-    <p>Voici l’image que tu as choisie :</p>
-
-    <!-- IMAGE EN LIGNE LIBRE DE DROIT -->
     <!-- 
-      Ici, "src" est l’adresse directe de l’image.
-      Tu peux changer cette URL par une autre si tu veux.
-      C’est une photo gratuite de montagne trouvée sur Unsplash. 
+      Ici on utilise une image LOCALE.
+      Cela veut dire que le fichier "image.jpg"
+      se trouve dans le même dossier que index.html.
     -->
-    <img 
-      src="https://images.unsplash.com/photo-1465101162946-4377e57745c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1080"
-      alt="Montagne sous le soleil"
-      class="image"
-    >
+    <img src="image.jpg" alt="Montagne" class="image">
 
-    <!-- Un bouton avec interaction JavaScript -->
-    <button onclick="alerte()">Clique ici !</button>
+    <!-- Bouton avec un script -->
+    <button onclick="alerte()">Clique ici</button>
 
-    <!-- On relie le script JavaScript -->
+    <!-- Fichier JavaScript relié -->
     <script src="script.js"></script>
   </body>
 </html>

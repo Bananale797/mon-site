@@ -1,4 +1,4 @@
-// Fonction qui s’exécute quand tu cliques sur le bouton
+// Fonction exécutée quand on clique sur le bouton
 function alerte() {
-  alert("Tu as cliqué ! 😃"); // Message qui apparaît
+  alert("Le bouton fonctionne !");
 }
